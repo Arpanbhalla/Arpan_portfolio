@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Arpan Bhalla</title>
+  <link rel="icon" href="/Users/arpanbhalla/Desktop/Portfolio Arpan/examples/imgs/ab_logo.png" type="image/x-icon" style="font-family:sans-">
+
+  <meta name="author" content="Alvaro Trigo Lopez" />
+  <meta name="description" content="fullPage full-screen normal scrolling with autoScrolling." />
+  <meta name="keywords" content="fullpage,jquery,demo,screen,fullscreen,normal scroll,autoscrolling, scroll" />
+  <meta name="Resource-type" content="Document" />
+
+  <link rel="stylesheet" type="text/css" href="../jquery.fullPage.css" />
+  <link rel="stylesheet" type="text/css" href="examples.css.scss" />
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+  <script type="text/javascript" src="../vendors/scrolloverflow.js"></script>
+  <script type="text/javascript" src="../jquery.fullPage.js"></script>
+  <script type="text/javascript" src="examples.js"></script>
+
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $('#fullpage').fullpage({
+        menu: '#menu',
+        anchors: ['firstPage', 'secondPage', '3rdPage', '4thPage', 'thirdPage'],
+        sectionsColor: ['', '#D5D6D2', '#EBEEEE', '#C63D0F', '#28323E'],
+        autoScrolling: false
+      });
+    });
+  </script>
+
+</head>
+
+<body>
+
+  <ul id="menu">
+    <li data-menuanchor="firstPage" class="active"><a href="#firstPage">Home</a></li>
+    <li data-menuanchor="secondPage"><a href="#secondPage">About </a></li>
+    <li data-menuanchor="3rdPage"><a href="#3rdPage">Projects</a></li>
+    <li data-menuanchor="4thPage"><a href="#4thPage">Blogs</a></li>
+    <li data-menuanchor="thirdPage"><a href="#thirdPage">Contact </a></li>
+
+  </ul>
+
+  <div id="fullpage">
+    <!-- Home -->
+    <div class="section" id="section0">
+
+      <div class="intro">
+        <h1 class="home_name">ARPAN BHALLA </h1>
+        <h2 class="home_role">Full Stack Developer</h2>
+      </div>
+    </div>
+    <!-- Home End -->
+    <!-- About Me -->
+    <div class="section" id="section2">
+      <div class="about_pic">
+        <img class="proile_pic" src="/Users/arpanbhalla/Desktop/Portfolio Arpan/examples/imgs/Arpan.jpg">
+      </div>
+      <div class="about">
+        <p>An engineer at heart, I've always been a problem solver. I believe the digital space provides an endless arena of technologies to solve problems in the most effective and creative manner. After spending six rewarding years in the engineering sector,
+          I found my passion in programming.
+
+        </p>
+        </br>
+        <p>I decided to change my career path and enter the digital space. After learning a bit about programming and software development on my own I decided to enroll for the Web Development Immersive Course at General Assembly. It was here that I realized
+          the true potential of software development and got absolutely hooked!</p>
+        </br>
+        <p>
+          I’m currently looking for an opportunity that would allow me to work alongside experienced developers and help me learn as much about coding as I can, to become an awesome developer.</p>
+
+        <a href="/Users/arpanbhalla/Desktop/Portfolio Arpan/examples/imgs/Arpan Bhalla Resume.pdf" width="550" height="750" target="_tab"><button>Resume Download</button></a>
+      </div>
+      <div class="skills">
+        <hr>
+        <div class=skills0>
+          <img src="/Users/arpanbhalla/Desktop/Portfolio Arpan/examples/imgs/59505.png" alt=""><br>
+          <h2>Skills</h2>
+        </div>
+        <div class=skills_frontend>
+
+          <div class="html">
+            <img class="skill_html" src="/Users/arpanbhalla/Desktop/Portfolio Arpan/examples/imgs/HTML5.png">
+          </div>
+
+          <div class="css">
+            <img class="skill_css" src="/Users/arpanbhalla/Desktop/Portfolio Arpan/examples/imgs/css3.png">
+          </div>
+
+          <div class="js">
+            <img class="skill_js" src="/Users/arpanbhalla/Desktop/Portfolio Arpan/examples/imgs/javascript-logo.png">
+          </div>
+
+          <div class="jQuery">
+            <img class="skill_jQuery" src="/Users/arpanbhalla/Desktop/Portfolio Arpan/examples/imgs/jquery_bumper.sh-600x600.png">
+          </div>
+
+          <div class="backbone">
+            <img class="skill_backbone" src="/Users/arpanbhalla/Desktop/Portfolio Arpan/examples/imgs/Backbone_logo_logo_only.png">
+          </div><br>
+          <div class="skills_backend">
+
+            <div class="ruby">
+              <img class="skill_ruby" src="/Users/arpanbhalla/Desktop/Portfolio Arpan/examples/imgs/ruby-logo.png">
+            </div>
+
+            <div class="rails">
+              <img class="skill_rails" src="/Users/arpanbhalla/Desktop/Portfolio Arpan/examples/imgs/Ruby_on_Rails-logo.png">
+            </div>
+
+            <div class="postgresql">
+              <img class="skill_postgresql" src="/Users/arpanbhalla/Desktop/Portfolio Arpan/examples/imgs/postgresql-logo.png">
+            </div>
+          </div>
+          <!-- <h2>HTML | CSS | javaScript | jQuery | Backbone</h2> -->
+        </div>
+      </div>
+    </div>
+
+    <!-- About Me End -->
+
+    <!-- Projects -->
+
+    <div class="section" id="section1">
+
+      <div class="tic_tac_toe">
+
+        <img src="/Users/arpanbhalla/Desktop/Portfolio Arpan/examples/imgs/tictactoe.png" alt="">
+        <a href=""><button></button></a>
+
+      </div>
+
+
+      <!-- <div class="slide" id="slide1">
+        <div class="intro">
+          <h1>Tic Tac Toe</h1>
+          <p>
+            Easy to bookmark and share
+          </p>
+        </div>
+      </div>
+      <div class="slide" id="slide2">
+        <h1>Pet Reccue</h1>
+        <img src="imgs/iphone-blue.png" alt="iphone" id="iphone-two" />
+      </div> -->
+    </div>
+    <!-- Projects -->
+    <!-- Blogs -->
+
+    <div class="section" id="section1">
+      <div class="slide" id="slide1">
+        <div class="intro">
+          <h1>Lean Mgmt.</h1>
+          <p>
+            Easy to bookmark and share
+          </p>
+        </div>
+      </div>
+      <div class="slide" id="slide2">
+        <h1>Value Chain</h1>
+        <img src="imgs/iphone-blue.png" alt="iphone" id="iphone-two" />
+      </div>
+    </div>
+    <!-- Blogs -->
+
+    <!-- Contact -->
+    <div class="section" id="section3">
+      <div class="social_media_icons">
+
+        <div class="contact_info">
+          <h2 class="contact">Contact Details</h2>
+          <h2 class="name">Arpan Bhalla</h2>
+          <h3 class="phone">0435 479 576</h3>
+          <a href="mailto:arpanbhalla@gmail.com" class="email_add">arpanbhalla@gmail.com</a>
+        </div>
+
+        <footer>
+          <div>
+            <a href="https://au.linkedin.com/in/arpanbhalla" target="_tab">
+              <img src="/Users/arpanbhalla/Desktop/Portfolio Arpan/examples/imgs/linkedin-3-64 (1).png" />
+            </a>
+          </div>
+
+          <div>
+            <a href="https://github.com/Arpanbhalla" target="_tab">
+              <img src="/Users/arpanbhalla/Desktop/Portfolio Arpan/examples/imgs/github-6-64.png" alt="">
+            </a>
+
+          </div>
+          <div>
+            <a href="https://twitter.com/arpan_bhalla" target="_tab">
+              <img src="/Users/arpanbhalla/Desktop/Portfolio Arpan/examples/imgs/twitter-64.png">
+            </a>
+          </div>
+          <h2 class="copyright">© 2016 Arpan Bhalla</h2>
+
+        </footer>
+      </div>
+    </div>
+    <!-- Contact End -->
+
+  </div>
+
+</body>
+
+</html>
