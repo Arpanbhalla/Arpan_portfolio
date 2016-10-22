@@ -636,120 +636,15 @@ CONTACT
 =====================
 
 */
-.contact {
-  background: #fff;
-}
-.contact form {
-  margin-top: 40px;
-}
-.contact form input,
-.contact form textarea {
-  margin-top: 20px;
-}
-/*
-
-=====================
-CONTACT - WORDPRESS
-=====================
-
-*/
-div.wpcf7 div.wpcf7-response-output {
-  padding: 15px;
-  margin-bottom: 22px;
-  border: 1px solid transparent;
-  border-radius: 0;
-}
-div.wpcf7 div.wpcf7-response-output > p,
-div.wpcf7 div.wpcf7-response-output > ul {
-  margin-bottom: 0;
-}
-div.wpcf7 div.wpcf7-response-output > p + p {
-  margin-top: 5px;
-}
-div.wpcf7 div.wpcf7-mail-sent-ok {
-  background-color: #dff0d8;
-  border-color: #d6e9c6;
-  color: #3c763d;
-}
-div.wpcf7 div.wpcf7-mail-sent-ok hr {
-  border-top-color: #c9e2b3;
-}
-div.wpcf7 div.wpcf7-mail-sent-ok .alert-link {
-  color: #2b542c;
-}
-div.wpcf7 div.wpcf7-mail-sent-ng {
-  background-color: #f2dede;
-  border-color: #ebccd1;
-  color: #a94442;
-}
-div.wpcf7 div.wpcf7-mail-sent-ng hr {
-  border-top-color: #e4b9c0;
-}
-div.wpcf7 div.wpcf7-mail-sent-ng .alert-link {
-  color: #843534;
-}
-div.wpcf7 div.wpcf7-spam-blocked {
-  background-color: #f2dede;
-  border-color: #ebccd1;
-  color: #a94442;
-}
-div.wpcf7 div.wpcf7-spam-blocked hr {
-  border-top-color: #e4b9c0;
-}
-div.wpcf7 div.wpcf7-spam-blocked .alert-link {
-  color: #843534;
-}
-div.wpcf7 div.wpcf7-validation-errors {
-  background-color: #f2dede;
-  border-color: #ebccd1;
-  color: #a94442;
-}
-div.wpcf7 div.wpcf7-validation-errors hr {
-  border-top-color: #e4b9c0;
-}
-div.wpcf7 div.wpcf7-validation-errors .alert-link {
-  color: #843534;
-}
-div.wpcf7 div.wpcf7-validation-errors {
-  background-color: #f2dede;
-  border-color: #ebccd1;
-  color: #a94442;
-}
-div.wpcf7 div.wpcf7-validation-errors hr {
-  border-top-color: #e4b9c0;
-}
-div.wpcf7 div.wpcf7-validation-errors .alert-link {
-  color: #843534;
-}
-div.wpcf7 .wpcf7-form p {
-  display: none;
-}
-/*
-
-=====================
-MAP
-=====================
-
-*/
-#map {
-  height: 400px;
-}
-/*
-
-=====================
-FOOTER
-=====================
-
-*/
-#footer {
+#contact {
   background: #222222;
   font-size: 14px;
   line-height: 50px;
 }
-#footer p.social {
-  text-align: left;
+#contact p.social {
+  text-align: center;
 }
-#footer p.social a {
+#contact p.social a {
   margin-left: 10px;
   color: #fff;
   display: inline-block;
@@ -764,36 +659,34 @@ FOOTER
   -moz-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
 }
-#footer p.social a.facebook {
+#contact p.social a.github {
   background-color: #4460ae;
 }
-#footer p.social a.gplus {
+#contact p.social a.linkedin {
   background-color: #c21f25;
 }
-#footer p.social a.instagram {
+#contact p.social a.twitter {
   background-color: #cd4378;
 }
-#footer p.social a.email {
-  background-color: #4a7f45;
-}
+
 @media (max-width: 767px) {
-  #footer p.social {
+  #contact p.social {
     text-align: center;
     margin-bottom: 20px;
   }
 }
-#footer p {
+#contact p {
   margin: 0;
-  text-align: right;
+  text-align: center;
   color: #eeeeee;
   font-family: 'Roboto Slab', serif;
 }
 @media (max-width: 767px) {
-  #footer p {
+  #contact p {
     text-align: center;
   }
 }
-#footer p.template-bootstrapious {
+#contact p.template-bootstrapious {
   margin-top: 20px;
   text-align: center;
   color: #999999;
@@ -801,11 +694,11 @@ FOOTER
   font-size: 14px;
   font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-#footer p.template-bootstrapious a {
+#contact p.template-bootstrapious a {
   color: #999999;
 }
 @media (max-width: 767px) {
-  #footer p.template-bootstrapious {
+  #contact p.template-bootstrapious {
     text-align: center;
   }
 }
